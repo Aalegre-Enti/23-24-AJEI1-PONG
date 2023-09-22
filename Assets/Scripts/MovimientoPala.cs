@@ -23,7 +23,7 @@ public class MovimientoPala : MonoBehaviour
             horizontal = Input.GetAxis("Horizontal A");
         }
 
-
         transform.position = transform.position + new Vector3(horizontal, vertical, 0) * velocidad * Time.deltaTime;
     }
+
 }
